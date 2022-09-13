@@ -59,6 +59,12 @@
         margin-top: 2rem;
     }
 
+    .about .box-container .right-col .box,
+    .about .box-container .right-col .heading-2,
+    .service .box-container .box {
+        text-align: center;
+    }
+
 }
 
 /* -------media for 768px------- */
@@ -88,5 +94,24 @@
     .header-1 .search-box-container{
         width: 100%;
         margin-top: 2rem;
+    }
+    .brands .owl-carousel .item img {
+        width: 100%;
+        height: 100%;
+        padding: 1.5rem;
+    }
+
+    .footer .box-container .box .icons a {
+        font-size: 1.5rem;
+    }
+
+    .cradit,
+    .cradit span {
+        font-size: 1rem;
+    }
+
+    .footer .box-container .box iframe {
+        width: 250px;
+        height: 200px;
     }
 }
