@@ -525,38 +525,47 @@ li{
 .about .box-container{
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
 }
 
 .about .box-container .left-col img{
 	width: 90%;
+	align-items: center;
+}
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 .about .box-container .left-col{
 	flex: 1 1 25rem;
 }
+.about .box-container .left-col .authorised{
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+	color: var(--red);
+}
 .about .box-container .right-col{
 	flex: 1 1 50rem;
 }
-.about .box-container .right-col .heading-2{
-	font-size: 4rem;
-	color: var(--red);
-	margin-bottom: 3.5rem;
+.about .box-container .right-col .riponlogos img{
+	display: flex;
+	width: 30rem;
 }
-.about .box-container .right-col .box{
-	padding: 1.5rem 0;
+.companyprofile h2{
+	font-size: 3rem;
+	font-weight: bold;
 }
-.about .box-container .right-col .box h2{
-	color: #333;
-	font-size: 2rem;
-	text-transform: capitalize;
-	padding-bottom: 1rem;
-}
-.about .box-container .right-col .box p{
+.companyprofile p{
 	font-size: 1.5rem;
 	line-height: 1.7;
-	color: #808080;
-	letter-spacing: .1rem;
+	padding: 1rem 0;
 }
 
+tr td{
+	font-size: 1.5rem;
+}
 /* service section cess start */
 .service{
 	background-color: #ebf3fc;
