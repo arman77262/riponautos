@@ -132,4 +132,7 @@
     tr td {
         font-size: 1.0rem;
     }
+    .contact form .inputBox input{
+        width: 100%;
+    }
 }
