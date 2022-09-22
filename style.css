@@ -957,7 +957,35 @@ tr td{
 .box-container .left-col .col-3 .image .content h3:hover{
 	color: red;
 }
-
+.box-container .right-col .right-col-1 .product{
+	padding: 0;
+}
+.box-container .right-col .right-col-1 .product .box-container .box{
+	flex: 1 1 22rem;
+}
+.box-container .right-col .right-col-1 .product .box-container .box img{
+	width: 18rem;
+}
+.box-container .right-col .next-page{
+	padding: 3rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.box-container .right-col .next-page .page{
+	width: 4rem;
+	height: 4rem;
+	line-height: 4rem;
+	border: .1rem solid rgba(0, 0, 0, .1);
+	text-align: center;
+	font-size: 1.5rem;
+	cursor: pointer;
+	color: var(--red);
+}
+.box-container .right-col .next-page .page:nth-child(1){
+	background: var(--background-btn);
+	color: #fff;
+}
 
 /* ===========================Css for Product page end============================= */
 
